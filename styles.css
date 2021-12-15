@@ -1,0 +1,98 @@
+html {
+    font-family: sans-serif;
+  }
+h1, h2, h3 {
+    text-align: center;
+}
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin: auto;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+    text-align: center;
+    color: black;
+  }
+  
+
+
+  .horario th:first-child {
+    background-color:  rgb(143, 155, 143);
+  }
+
+  .horario tr:nth-child(odd) {
+    background-color: rgb(241, 241, 139);
+
+  }
+
+  .horario tr:nth-child(even) {
+    background-color: rgb(155, 237, 243);
+
+  }
+
+  .profes tr:last-child {
+    background-color: wheat;
+
+  }
+
+  .profes tr:nth-child(even) {
+    background-color: rgb(241, 241, 139);
+
+  }
+  .profes tr:first-child {
+    background-color: rgb(170, 165, 165);
+
+  }
+
+  .alumnos tr:first-child {
+    background-color: rgb(170, 165, 165);
+
+  }
+
+  .alumnos tr:nth-child(even) {
+    background-color: rgb(241, 241, 139);
+
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+
+  }
+
+  .MP06 {
+    background-color: green;
+
+  }
+
+  .MP04 {
+    background-color: hotpink;
+
+  }
+
+  .MP12 {
+    background-color: red;
+  }
+
+  .MP07 {
+    background-color: rgb(99, 99, 241);
+  }
+
+  .MP08 {
+    background-color: orange;
+  }
+
+  .MP10 {
+    background-color: pink;
+  }
+
+  .T {
+    background-color: white;
+
+  }
